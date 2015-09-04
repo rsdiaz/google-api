@@ -3,13 +3,14 @@
   "version": "0.0.1",
   "description": "Simple wrapper for Google APIs.",
   "author": "Roberto Serrano Diaz-Grande",
-  "main": "./lib/google",
+  "main": "./lib/google-api",
+  "bin": "./bin/google-api.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "node ./test/test.js",
-    "start": "node ./lib/google"
+    "start": "node ./lib/google-api"
   },
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 var assert = require('assert');
-var google = require('../lib/google');
+var google = require('../lib/google-api');
 
 assert.throws(function() {
   var g = new google();
@@ -12,7 +12,7 @@ assert.throws(function() {
 }, Error, 'Incorrect apiKey data type did not throw error')
 
 var g = new google({
-  apiKey: 'AIzaSyD-hiA4JGBYXVkxmhL0pAi9fMpWlk5n-z8'
+  apiKey: 'YOUR API KEY'
 })
 
 // invalid shortUrl to getUrl

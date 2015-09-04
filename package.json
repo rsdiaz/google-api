@@ -1,0 +1,42 @@
+{
+  "name": "google-api",
+  "version": "0.0.1",
+  "description": "Simple wrapper for Google APIs.",
+  "author": "Roberto Serrano Diaz-Grande",
+  "main": "./lib/google",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js",
+    "start": "node ./lib/google"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "email": "roberto@serranodiaz.com",
+    "url": ""
+  },
+  "dependencies": {
+    "request": "^2.61.0"
+  },
+  "tags": [
+    "google",
+    "api",
+    "simple",
+    "request",
+    "rest",
+    "http",
+    "oauth"
+],
+"keywords": [
+    "google",
+    "api",
+    "simple",
+    "rest",
+    "request",
+    "oauth"
+  ]
+}

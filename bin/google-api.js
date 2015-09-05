@@ -4,7 +4,7 @@ var google = require('../lib/google-api.js');
 const E_MISSING_URL = 'ERROR -> missing url value.';
 const VERSION = '0.0.1'
 var g = new google({
-  apiKey: 'AIzaSyD-hiA4JGBYXVkxmhL0pAi9fMpWlk5n-z8'
+  apiKey: 'YOUR API KEY'
 });
 
 if (!process.argv[2]) {
